@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Features>IOperation</Features>
+    <CodeAnalysisRuleSet>..\..\..\CA_ProductionCode.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Mmu.Mlh.RestExtensions" Version="2.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Application\Mmu.Trms.Application.csproj" />
+    <ProjectReference Include="..\DomainServices\Mmu.Trms.DomainServices.csproj" />
+    <ProjectReference Include="..\Domain\Mmu.Trms.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

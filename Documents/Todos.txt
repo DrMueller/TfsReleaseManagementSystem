@@ -1,0 +1,16 @@
+# Use Case 
+1. On the Requirement, define a "in ReadMe checkbox", ReadMe title and Readme free text
+
+# Use Case
+1. Read the latest previous Release
+2. Read the Commit ID included in this Release
+3. Read all Commits until the current Release
+4. Read all Commit comments with their respective work item id
+5. Read these workitems and their titles
+6. Create a Release with the Version Number, commit id, and the linked Work Items
+7. Create a ReadMe with the Text
+
+# Use Case
+1. Read the Build Changes by BuildId
+1. Read the Commit comments
+1. Read the Work Item by the IDs
