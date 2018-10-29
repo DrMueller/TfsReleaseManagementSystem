@@ -35,6 +35,11 @@ namespace Mmu.Trms.DataAccess.Areas.Repositories
                 builderFactory => builderFactory.StartBuilding(functionPath)
                     .Build());
 
+            if (dtos == null)
+            {
+                return new List<BuildChange>();
+            }
+
             var adapter = _adapterResolver.ResolveByAdapteeTypes<BuildChangeDto, BuildChange>();
             var result = dtos.Select(dto => adapter.Adapt(dto)).ToList();
             return result;

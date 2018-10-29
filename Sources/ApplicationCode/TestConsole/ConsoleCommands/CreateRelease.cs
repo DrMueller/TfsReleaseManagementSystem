@@ -22,8 +22,8 @@ namespace Mmu.Trms.TestConsole.ConsoleCommands
             await _releaseCreationService.CreateReleaseAsync(
                 new ReleaseConfigurationDto
                 {
-                    BuildId = 1172,
-                    ParentWorkItemId = 150,
+                    BuildId = 1279,
+                    ParentWorkItemId = 201,
                     BuildVersion = "1.2.3"
                 });
 
