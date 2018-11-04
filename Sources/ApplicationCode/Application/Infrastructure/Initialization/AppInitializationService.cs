@@ -16,7 +16,7 @@ namespace Mmu.Trms.Application.Infrastructure.Initialization
                 logInitialization: true);
 
             InitializationService.AssureServicesAreInitialized(containerConfig, provideDependenciesCallback);
-            InitializationService.AssureSettingsAreInitialized<AppSettings>(AppSettings.SectionKey, rootAssembly);
+            InitializationService.AssureSettingsAreInitialized<AppSettings>(AppSettings.SectionKey, "Release", rootAssembly);
         }
     }
 }

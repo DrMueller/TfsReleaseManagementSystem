@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Azure.WebJobs;
 using Microsoft.Azure.WebJobs.Extensions.Http;
 using Microsoft.Extensions.Logging;
-using Mmu.Mlazh.AzureApplicationExtensions.Areas.AzureFunctionExecution;
+using Mmu.Mlazh.AzureApplicationExtensions.Areas.AzureFunctions.Context;
 using Mmu.Trms.Application.Areas.Dtos;
 using Mmu.Trms.Application.Areas.Services;
 using Mmu.Trms.AzureFunctions.Infrastructure;
